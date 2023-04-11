@@ -2,14 +2,14 @@ function createHome() {
     const home = document.createElement("div");
     home.classList.add("home");
   
-    const chefImage = document.createElement("img");
-    chefImage.src = "images/chef.png";
-    chefImage.alt = "Chef";
+    const linkImage = document.createElement("img");
+    linkImage.src = "images/zelda-cooking-camp.gif";
+    linkImage.alt = "Link";
   
-    home.appendChild(createParagraph("Best pizza in your country"));
-    home.appendChild(createParagraph("Made with passion since 1908"));
-    home.appendChild(chefImage);
-    home.appendChild(createParagraph("Order online or visit us!"));
+    home.appendChild(createParagraph("The most delicious recipes in all of Hyrule Kingdom!"));
+    home.appendChild(createParagraph("It's dangerous to go alone...without a good meal!"));
+    home.appendChild(linkImage);
+    home.appendChild(createParagraph("The travel is worth it!"));
   
     return home;
   }
