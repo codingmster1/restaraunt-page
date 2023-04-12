@@ -1,1 +1,4 @@
-//console.log("alert");
+import initializeWebsite from "./website.js";
+
+
+initializeWebsite();
