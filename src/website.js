@@ -13,7 +13,7 @@ function createHeader() {
 
   const restaurantName = document.createElement("h1");
   restaurantName.classList.add("restaurant-name");
-  restaurantName.textContent = "Link's Kitchen";
+  restaurantName.textContent = "Link's Recipe Pot";
 
   header.appendChild(restaurantName);
   header.appendChild(createNav());
